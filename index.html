@@ -3,268 +3,235 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no" />
 
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-
-	<title>Jonatan Palacios - Desarrollador FullStack</title>
+	<title>Jonatan Palacios - Desarrollador</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="container-header">
-                <div class="h-name">
-                    <h1>Hello. <br/>
-                     I'm Jonatan.</h1>
-                </div>
-                <div class="h-p">
-                    <p>Looking for opportunities 
-                    to upgrade my skills as a developer.
-                    I'm Jonatan, and I'm in love 
-                    with web development and programming.</p>
-                </div>
-            </div>
+	<div id="myNav" class="overlay" >
+		<div class="overlay-content" id="overlay">
+      		<div class="container-fluid body d-flex flex-column">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-6 ">
+						<h2 class="text-white">Talk
+							To me <br>
+							</h2>
 
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-6 container d-flex flex-column justify-content-center align-items-center">
+						<form action="js/enviar.php" method="post">
+					       
+					          <input type="text" name="name" placeholder="Nombre" required="">
+					          <input type="mail" name="mail" placeholder="Email" required="">					       
+					          <input type="text" name="asunto" placeholder="Asunto" required="">
+					          <textarea id="msg" name="msg" placeholder="Mensaje" required=""></textarea>
+					          <input type="submit" class="enviar" name="send">
+					      </form> 
+					</div>
+				</div>
+			</div>
+    	</div>
+	</div>
+	
+	<div id="btn"class="iconOpenMenu"><i class="fas fa-arrow-left"></i></div>
 
-            <div class="container-header">
-                <div class="h-p-2">
-                    <p> 
-                    I like the challenge of programming 
-                    and have never been so excited to 
-                    show that I can give more of myself. 
-                    My next step is to be part of a team 
-                    and make history on the digital path.</p>
-                </div>
-                
-                <div class="h-name-2">
-                    <h2>Web<br/>
-                     Development.</h2>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section>
-        <div class="projects-section">
-            <br>
-            <br>
-            <hr>
-            <hr>
-            <h2>Projects</h2>
-            <div class="img-projects">
-                <div class="card-proyects">
-                    <div class="info_pages">
-                        <span>Background change Javascript</span>
-                        <a href="https://yonpalac1.github.io/-agencyProve/"><i class="fas fa-desktop"></i></a>
-                    </div>
-                    <div class="img_box">
-                        <a href="#"><img src="./img/img1.png"></a>
-                    </div>
-                </div>
-                <div class="card-proyects">
-                    <div class="info_pages">
-                        <span>Drag and Drop - <br>
-                            LocalStorage
-                        </span>
-                        <a href="https://yonpalac1.github.io/ListTask/"><i class="fas fa-desktop"></i></a>
-                    </div>
-                    <div class="img_box">
-                        <a href="#"><img src="./img/img2.png"></a>
-                    </div>
-                </div>
-                <div class="card-proyects">
-                    <div class="info_pages">
-                        <span>CSS Practice</span>
-                        <a href="https://codepen.io/yonpalac1/pen/vYXWmzE"><i class="fas fa-desktop"></i></a>
-                    </div>
-                    <div class="img_box">
-                        <a href="#"><img src="./img/img3.png"></a>
-                    </div>
-                </div>
-                <div class="card-proyects">
-                    <div class="info_pages">
-                        <span>API Movie Data</span>
-                        <a href="https://yonpalac1.github.io/APImovie/"><i class="fas fa-desktop"></i></a>
-                    </div>
-                    <div class="img_box">
-                        <a href="#"><img src="./img/img4.png"></a>
-                    </div>
-                </div>
-                <div class="card-proyects">
-                    <div class="info_pages">
-                        <span>Ecommerce</span>
-                        <a href="#"><i class="fas fa-desktop"></i></a>
-                    </div>
-                    <div class="img_box">
-                        <a href="#"><img src="./img/img5.png"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="skills">
-        <h2>Skills</h2>
-        <div class="gif_player">
-            <h3>* Frontend Delopment *</h3>
-            <h5>Lenguajes</h5>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Dreamweaber</li>
-            </ul>
-            <h5>Frameworks and Libraries</h5>
-            <ul>
-                <li>Bootstrap</li>
-                <li>Materialize Css</li>
-                <li>Sass</li>
-                <li>Webpack</li>
-                <li>Flexbox</li>
-                <li>JQuery</li>
-            </ul>
-        </div>
-        <div>
-            <h3> Backend <br/> * Development *</h3>
-            <h5>Languages</h5>
-            <ul>
-                <li>Javascript</li>
-                <li>PHP</li>
-                <li>JavaScript</li>
-                <li>Dreamweaber</li>
-            </ul>
-            <h5>Databases</h5>
-            <ul>
-                <li>MySql </li>
-                <li>Sql </li>
-            </ul>
-        </div>
-        <div>
-        <h3> * Others *</h3>
-            <ul>
-                <li>Photoshop</li>
-                <li>Adobe Flash</li>
-                <li>Adobe Fireworks</li>
-                <li>Git - learning</li>
-            </ul>
-        </div>
-        <div>
-            <h5>Diseño y desarrollo web</h5>
-            <p>Diseño y desarrollo web utilizando 
-            lo último en tecnologías web: 
-            DREAMWEABER, PHP, HTML5, CSS3, JAVASCRIPT 
-            y (eventualmente màs) backend. Sitios 
-            institucionales, blogs, tiendas online, 
-            corporativos, etc.</p>
-        </div>
-        <div>
-            <h5>Wordpress</h5>
-            <p>Con WordPress podes modificar, 
-            agregar o eliminar el contenido 
-            que necesites sin tener conocimientos 
-            de programación. Ya no necesitás pagar 
-            por mantenimiento.</p>
-        </div>
-        <div>
-            <h5>Diseños responsivos</h5>
-            <p>Los sitios se pueden ver y 
-            navegar de manera simple y atractiva 
-            en todos los dispositivos móviles, 
-            llegando así a tener más potenciales clientes..</p>
-        </div>
-    </div>
-    </section>
-    <section>
-        <div class="about" data-background="#181818">
-            <div class="about_section">
-                <h2>* About me *</h2>
-                <div>
-                <p>Soy una persona que responde
-                 a los cambios e intento estar 
-                 siempre informado porque creo 
-                 que la misión de los desarroladores 
-                 y de los ingenieros es promover la 
-                 innovación. 
-                 <br/><br/>
-                 La tecnología tiene el poder 
-                de cambiar la forma en que vemos 
-                el mundo y la vida de las personas, 
-                como dice la frase “Cualquier tecnología 
-                suficientemente avanzada es indistinguible 
-                de la magia”, y eso es lo que creo que
-                 hay que hacer sentir a las personas.
-                 <br/><br/>
-                 Entiendo al servicio o producto 
-                como una herramienta para resolver 
-                un problema, y al diseño como un 
-                intermediario para que los usuarios 
-                lo dominen.<br>
-                    <button>Descarga mi CV</button>
-                    <div class="bg"></div>
-                </p>
-                </div>
-                <div>
-                    <img src="./img/foto.png">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="info_css">
-                <h2> Info </h2>
-                <div class="div_info">
-                    <h4>Linkedin</h4>
-                    <span>Whatsapp</span>
-                    <h4>11-3936-6942</h4>
-                    <span>Email</span>
-                    <h4>YonatanPalac@gmail.com</h4>
-                </div>
-                <div class="div_info">
-                    <span>Lanùs</span>
-                    <h4>Buenos Aires</h4>
-                    <span>30/01/1994</span>
-                    <h4>Diseñador creativo</h4>
-                </div>
-                <div class="div_info">
-                    <h4>Speak Me!!</h4>
-                    <h4>Take the button to say hello! </h4>
-                        <button onclick="slay()">Speak ME!</button>
-                </div>
-            </div>
-    </section>
+	<header class="container">
+		<div class="row">
+			<div class="col-sm-6 p-4">
+				<h1>Hello. I'm Jonatan.</h1>
+			</div>
+			<div class="col-sm-6 p-4">
+				<p>Looking for opportunities to upgrade my skills as a developer. I'm Jonatan, and I'm in love with web development and programming.</p>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-4">
+				<p class="paragraph_header">I like the challenge of programming and have never been so excited to show that I can give more of myself. My next step is to be part of a team and make history on the digital path.</p>
+				<h2>Web Development</h2>
+				<hr><hr>
+			</div>
+		</div>
+	</header>
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h3>Projects</h3>
+			</div>
 
-        <button class="btn_close" id="btn_close" onclick="slay()"><i class="fas fa-arrow-down"></i></button>
-    <div class="form_slay" id="form_slay">
-            <div class="main_contact">
-                <h2>TEll
-                    ME 
-                    Hi</h2>
-            </div>
-        <div class="form_contact">
-                <form >
-                    <input class="col-sm-11" type="text" name="name" placeholder="Name" />
-                    <input class="col-sm-6 col-md-12 " type="email" name="email" placeholder="Email" />
-                    <input class="col-sm-5 col-md-12 " type="text" name="phone" placeholder="Asunt" />
-                    <textarea placeholder="Text Me"></textarea>
-                    <p class="text-white">Cel: 11-3936-6942</p>
-                    <p class="text-white">Email: yonatanPalac@gmail.com</p>
-                    <p class="text-white">Buenos Aires, Argentina</p>
-                </form>
-            </div>
-    </div>
+			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 img_proyects">
+				<div class="img_box">
+					<img src="./img/img1.png" class="img-fluid">
+				</div>
+				<div class="info_img">
+					<span>Ecommerce</span>
+					<p>PHP Data Base</p>
+					<li style="--i:1;"><a href="https://exomerce.000webhostapp.com/index.php" target="_blank"><i class="fas fa-desktop"></i></a></li>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 img_proyects">
+				<div class="img_box">
+					<img src="./img/img2.png" class="img-fluid">
+				</div>
+				<div class="info_img">
+					<span>Api TheMovieDb</span>
+					<li style="--i:1;"><a href="https://yonpalac1.github.io/APImovie/"><i class="fas fa-desktop" target="_blank"></i></a></li>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 img_proyects">
+				<div class="img_box">
+					<img src="./img/img4.png" class="img-fluid">
+				</div>
+				<div class="info_img">
+					<span>Login</span>
+					<p>Background Change CSS JS</p>
+					<li style="--i:1;"><a href="https://yonpalac1.github.io/login/"><i class="fas fa-desktop" target="_blank"></i></a></li>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h3>Skills</h3>
+			</div>
+			<div class="col main_skills">
+				<div class="box_skills p-4 skills_wow">
+					<h4> Frontend <br>
+					* Delopment *</h4>
+					<span>Lenguajes</span>
+					<ul>
+						<li>HTML5</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>Dreamweaber</li>
+					</ul>
+
+					<span>Frameworks and Libraries</span>
+					<ul>
+						<li>Bootstrap</li>
+						<li>Materialize Css</li>
+						<li>Sass</li>
+						<li>Webpack</li>
+						<li>Flexbox</li>
+						<li>JQuery</li>
+					</ul>
+				</div>
+				<div class="box_skills p-4">
+					<h4>Backend <br>
+					* Development *</h4>
+					<span>Lenguajes</span>
+					<ul>
+						<li>JavaScript</li>
+						<li>PHP</li>
+					</ul>
+
+					<span>Databases</span>
+					<ul>
+						<li>MySql</li>
+						<li>Sql</li>
+					</ul>
+				</div>
+				<div class="box_skills p-3">
+					<h4>* Others *</h4>
+					<ul>
+						<li>Photoshop</li>
+						<li>Adobe Flash</li>
+						<li>Adobe fireworks</li>
+						<li>Git - Learning</li>
+					</ul>
+				</div>
+				<div class="box_skills p-3">
+					<h4>* Diseño y desarrollo web *</h4>
+					<p>Diseño y desarrollo web utilizando lo último en tecnologías web: DREAMWEABER, PHP, HTML5, CSS3, JAVASCRIPT y (eventualmente màs) backend. Sitios institucionales, blogs, tiendas online, corporativos, etc.</p>
+				</div>
+				<div class="box_skills p-3">
+					<h4>* Wordpress *</h4>
+					<p>Con WordPress podes modificar, agregar o eliminar el contenido que necesites sin tener conocimientos de programación. Ya no necesitás pagar por mantenimiento.</p>
+				</div>
+				<div class="box_skills p-3 bg" data-background="#FDF2E9">
+					<h4>Diseños <br>
+					 * responsivos *</h4>
+					<p>Los sitios se pueden ver y navegar de manera simple y atractiva en todos los dispositivos móviles, llegando así a tener más potenciales clientes..</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container main_about p-2 change" data-background="#181818">
+		<div class="row">
+			<div class="col-sm-12 p-4 text-center">
+				<h3>* About me *</h3>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+				<p>Soy una persona que responde a los cambios e intento estar siempre informado porque creo que la misión de los desarroladores y de los ingenieros es promover la innovación. <br>
+
+				La tecnología tiene el poder de cambiar la forma en que vemos el mundo y la vida de las personas, como dice la frase “Cualquier tecnología suficientemente avanzada es indistinguible de la magia”, y eso es lo que creo que hay que hacer sentir a las personas.<br>
+
+				Entiendo al servicio o producto como una herramienta para resolver un problema, y al diseño como un intermediario para que los usuarios lo dominen.</p>
+
+				<button type="submit" onclick="window.open('js/CV-Jonatan Palacios (desarrollador web).pdf')">Descargar CV en PDF</button>
+			</div>
+			<div class="col d-flex justify-content-center">
+				<img src="./img/foto.png" class="img-fluid">
+			</div>
+		</div>
+	</section>
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h3>Info</h3>
+			</div>
+			<div class="main_info_static p-2">
+				<h4><a href="https://www.linkedin.com/in/yonatan-palacios-5a5482203">Linkedin</a></h4>
+				<h4><a href="https://codepen.io/yonpalac1">Codepen</a></h4>
+				<h4>YonatanPalac@gmail.com</h4>
+				<p>Whatsapp</p>
+				<h4>11-3936-6942</h4>
+			</div>
+			<div class="main_info p-2">
+				<p>Lanus</p>
+				<h4>Buenos Aires</h4>
+				<p>Nacimiento 30/01/1994</p>
+				<h4>Diseñador creativo</h4>
+			</div>
+			<div class="main_info p-2">
+				<h4>speak Me!</h4>
+				<h4>Take the button to say hello!</h4>
+				<button onclick="openMenu()">Speak ME!</button>
+			</div>
+		</div>
+	</section>
+
+<script src="js/e.js"></script>
+<script src="./js/script.js"></script>
+<script src="js/wow.js"></script><!--scroll apear-->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script><!--scroll-->
 
 <script>
-    const form_slay = document.getElementById("form_slay");
-    const btn_close = document.getElementById("btn_close");
-    function slay(){
-        form_slay.classList.toggle("active");
-        btn_close.classList.toggle("active");
-    }
+	window.sr = ScrollReveal();
+
+	sr.reveal('h1, h3, li, span', {
+		duration: 1000,
+		origin: 'left',
+		distance: '100%',
+		opacity: 0
+	});
+	sr.reveal('.slide, p, img, h4, button',  {
+		duration: 1500,
+		origin: 'bottom',
+		distance: '100%',
+		opacity: 0
+	});
 </script>
 </body>
 </html>
