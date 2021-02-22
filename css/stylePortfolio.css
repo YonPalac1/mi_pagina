@@ -1,0 +1,164 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	overflow-x:hidden;
+}
+section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+header{
+	background: linear-gradient(to right, #3c0066 0%, #9f0033 100%);
+	font-size:150px;
+	padding-top:100px;
+}
+header h2{
+	font-size: 50px;
+}
+header .btn{
+	padding: 10px 25px;
+	margin-bottom:100px;
+}
+.navbar{
+	position:sticky;
+	top:0;
+	background-color:#3c0066;
+	z-index:1000;
+}
+.navbar ul li a{
+	color:#fff;
+	font-size:20px;
+}
+.proyects h2{
+	font-size: 50px;
+	margin-bottom: 50px;
+		letter-spacing:1rem;
+}
+
+.proyects .card-proyects{
+	background-color:#373b69;
+	border-radius:3px;
+	box-shadow:0 4px 5px rgba(0,0,0,0.2);
+	margin:1rem;
+	width:300px;
+	height:400px;
+	overflow:hidden;
+	position:relative;
+	box-shadow: 0px 2px 14px;
+}
+.proyects .card-proyects img{
+	width:100%;
+	height:400px;
+}
+.proyects .content{
+	background: rgba(255,255,255,.05);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	padding:2rem;
+	max-height: 100%;
+	position:absolute;
+	overflow:auto;
+	left:0;
+	bottom:0;
+	right:0;
+	top:0;
+	transform:translateX(-100%);
+	transition: transform 0.3s ease-in;
+}
+.proyects .content p{
+	color:#000;
+}
+.card-proyects:hover .content{
+	transform:translateX(0);
+}
+.card-proyects .content ul li{
+	list-style:none;
+	display:inline;
+	margin:20px;
+}
+.card-proyects .content ul li a{
+	border:none;
+	background:none;
+}
+.card-proyects .content ul li a i{
+	font-size: 40px;
+	color: #000;
+}
+.proyects .content ul li a:hover i{
+	color: #ccc;
+}
+
+.contact h2{
+	font-size: 50px;
+	margin-bottom: 20px;
+	letter-spacing:1rem;
+}
+.contact, footer{
+	background: linear-gradient(to left, #3c0066 0%, #420000 100%);
+}
+.contact ul{
+	text-align:center;
+	margin-bottom:25px;
+}
+.contact ul li{
+	list-style: none;
+	font-size: 20px;
+	color: #1C9B9D;
+	font-weight: bolder; 
+}
+.contact ul li i{
+	margin-right:30px;
+}
+.contact ul:nth-child(3){
+}
+.contact ul li a{
+	list-style: none;
+	font-size: 20px;
+	color: #1C9B9D;
+	font-weight: bolder; 
+	border:none;
+}
+.contact ul li a:hover{
+	background:none;
+}
+form input,textarea{
+	padding: 15px;
+	background: #000;
+	color: #fff;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+	margin-top: 1em;
+	width: 100%;
+}
+textarea{
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+	min-height: 150px;
+}
+.button input{
+	background:#000;
+	color: #fff;
+	padding: 15px;
+	border: none;
+	margin: 10px 0px;
+	cursor: pointer;
+	transition:0.3s;
+}
+.button input:hover{
+	border: 1px solid #fff;
+	background:none;
+}
+@media screen and (max-width: 500px){
+	header h2{
+		font-size: 40px;
+	}
+	.container h2{
+		letter-spacing:0px;
+		font-size:30px;
+	}
+}
