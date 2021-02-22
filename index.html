@@ -3,235 +3,309 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no" />
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-	<title>Jonatan Palacios - Desarrollador</title>
+
+	<title>Jonatan Palacios - Desarrollador FullStack</title>
+	<link rel="icon" type="image/png" href="images/logo.png" />
 </head>
 <body>
-	<div id="myNav" class="overlay" >
-		<div class="overlay-content" id="overlay">
-      		<div class="container-fluid body d-flex flex-column">
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-lg-6 ">
-						<h2 class="text-white">Talk
-							To me <br>
-							</h2>
-
-					</div>
-					<div class="col-sm-12 col-md-12 col-lg-6 container d-flex flex-column justify-content-center align-items-center">
-						<form action="js/enviar.php" method="post">
-					       
-					          <input type="text" name="name" placeholder="Nombre" required="">
-					          <input type="mail" name="mail" placeholder="Email" required="">					       
-					          <input type="text" name="asunto" placeholder="Asunto" required="">
-					          <textarea id="msg" name="msg" placeholder="Mensaje" required=""></textarea>
-					          <input type="submit" class="enviar" name="send">
-					      </form> 
-					</div>
-				</div>
-			</div>
-    	</div>
-	</div>
-	
-	<div id="btn"class="iconOpenMenu"><i class="fas fa-arrow-left"></i></div>
-
-	<header class="container">
-		<div class="row">
-			<div class="col-sm-6 p-4">
-				<h1>Hello. I'm Jonatan.</h1>
-			</div>
-			<div class="col-sm-6 p-4">
-				<p>Looking for opportunities to upgrade my skills as a developer. I'm Jonatan, and I'm in love with web development and programming.</p>
-			</div>
-			
-		</div>
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-4">
-				<p class="paragraph_header">I like the challenge of programming and have never been so excited to show that I can give more of myself. My next step is to be part of a team and make history on the digital path.</p>
-				<h2>Web Development</h2>
-				<hr><hr>
-			</div>
-		</div>
+	<header class="container-fluid  bg-dark">
+		<div class="row  d-flex flex-column justify-content-center align-items-center">
+		    <div class="col-sm-12 col-md-6 text-center text-white mt-5 pt-5">
+		    	<h2>Buscando oportunidades para <span>levelear</span> mis habilidades como desarrollador.</h2>
+		    <a class="btn btn-dark mt-3 mt-4 pl-4 pr-4 font-weight-bold" href="#thisIsMe">Welcome</a>
+		    </div>
+		 </div>
 	</header>
-	<section class="container">
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a href="index.html" class="navbar-brand text-white mr-5">Home</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="col">
+						<ul class="nav justify-content-end">
+						  <li class="nav-item">
+						    <a class="nav-link active" href="#thisIsMe">This is me</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#skills">Skills</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#portfolio">My portfolio</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#contact">Contact</a>
+						  </li>
+						</ul>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</nav>
+
+	<section class="container-fluid contentW" id="thisIsMe">
+			<div class="subTitle">
+				<h2>-Quien soy...</h2>
+			</div>
 		<div class="row">
-			<div class="col-sm-12 text-center">
-				<h3>Projects</h3>
-			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-3 flex-column p-5">
 
-			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 img_proyects">
-				<div class="img_box">
-					<img src="./img/img1.png" class="img-fluid">
-				</div>
-				<div class="info_img">
-					<span>Ecommerce</span>
-					<p>PHP Data Base</p>
-					<li style="--i:1;"><a href="https://exomerce.000webhostapp.com/index.php" target="_blank"><i class="fas fa-desktop"></i></a></li>
-				</div>
+				<p class="text-left mb-5">Soy una persona que responde a los cambios e intento estar siempre informado porque creo que la misión de los desarroladores y de los ingenieros es promover la innovación. La tecnología tiene el poder de cambiar la forma en que vemos el mundo y la vida de las personas, como dice la frase “Cualquier tecnología suficientemente avanzada es indistinguible de la magia”, y eso es lo que creo que hay que hacer sentir a las personas. <br><br>
+				Entiendo al servicio o producto como una herramienta para resolver un problema, y al diseño como un intermediario para que los usuarios lo dominen. </p>
+				<a class="pl-4 pr-4" href="cv.html"> Mira mi CV </a>
 			</div>
-
-			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 img_proyects">
-				<div class="img_box">
-					<img src="./img/img2.png" class="img-fluid">
-				</div>
-				<div class="info_img">
-					<span>Api TheMovieDb</span>
-					<li style="--i:1;"><a href="https://yonpalac1.github.io/APImovie/"><i class="fas fa-desktop" target="_blank"></i></a></li>
-				</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center">
+				<img class="img-fluid imgPc" src="images/fondo.png">
 			</div>
+		</div>
+	</section>
 
-			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 img_proyects">
-				<div class="img_box">
-					<img src="./img/img4.png" class="img-fluid">
-				</div>
-				<div class="info_img">
-					<span>Login</span>
-					<p>Background Change CSS JS</p>
-					<li style="--i:1;"><a href="https://yonpalac1.github.io/login/"><i class="fas fa-desktop" target="_blank"></i></a></li>
+	<section class="container-fluid " id="skills">
+		<div class="contentW">
+			<div class="subTitle2">
+				<h2>-Herramientas</h2>
+			</div>
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-sm col-md-6 col-lg-4 col-xl-4">
+						<div class="card rounded" style="width: 18rem;">
+						  <img src="images/logo1.png">
+						  <div class="card-body">
+						    <h3>Frontend Delopment</h3>
+							<h4>Lenguajes</h4>
+							<li>HTML5</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>Dreamweaber</li>
+
+							<h4>Frameworks and Libraries</h4>
+							<li>Bootstrap</li>
+							<li>Materialize Css</li>
+							<li>Sass</li>
+							<li>Webpack</li>
+							<li>Flexbox</li>
+							<li>JQuery</li>
+						  </div>
+						</div>
+					</div>
+	   				<div class="col-sm col-md-6 col-lg-4 col-xl-4">
+						<div class="card rounded" style="width: 18rem;">
+						  <img src="images/logo2.png">
+						  <div class="card-body">
+						    <h3>Backend Development</h3>
+							<h4>Languages</h4>
+							<li>Javascript</li>
+							<li>PHP</li>
+							<li>Python</li>
+							<li>Java - <b>In progress</b></li>
+
+							<h4>Databases</h4>
+							<li>MySql - <b>In progress</b></li>
+							<li>Sql - <b>In progress</b></li>
+						  </div>
+						</div>
+	   				</div>
+	   					
+	    			<div class="col-sm col-md-6 col-lg-4 col-xl-4">
+	    				<div class="card rounded" style="width: 18rem;">
+						  <img src="images/logo3.png">
+						  <div class="card-body">
+						    <h3>Others</h3>
+							<li>Photoshop</li>
+							<li>Adobe Flash</li>
+							<li>Adobe Fireworks</li>
+							<li>Git - Learning</li>
+						  </div>
+						</div>
+	    			</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="container">
+
+	<section class="container text-center proyects" id="portfolio">
+		<h2 class="text-center">Mi portfolio</h2>
+		<span>Ultimos proyectos</span>
 		<div class="row">
-			<div class="col-sm-12 text-center">
-				<h3>Skills</h3>
+			<div class="col-sm col-md-6 col-lg-4 col-xl-4 container-proyects">
+				<div class="card-proyects">
+				<div class="imgBx">
+					<img src="images/img15.png">
+				</div>
+					<div class="content">
+						<h4>Ecommerce</h4>
+						<p>PHP Data Base</p>
+						<ul class="sci">
+							<li style="--i:1;"><a href="https://exomerce.000webhostapp.com/index.php"><i class="fas fa-desktop"></i></a></li>
+							
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="col main_skills">
-				<div class="box_skills p-4 skills_wow">
-					<h4> Frontend <br>
-					* Delopment *</h4>
-					<span>Lenguajes</span>
-					<ul>
-						<li>HTML5</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>Dreamweaber</li>
-					</ul>
 
-					<span>Frameworks and Libraries</span>
-					<ul>
-						<li>Bootstrap</li>
-						<li>Materialize Css</li>
-						<li>Sass</li>
-						<li>Webpack</li>
-						<li>Flexbox</li>
-						<li>JQuery</li>
-					</ul>
+			<div class="col-sm col-md-6 col-lg-4 col-xl-4 container-proyects">
+				<div class="card-proyects">
+				<div class="imgBx">
+					<img src="images/img14.png">
 				</div>
-				<div class="box_skills p-4">
-					<h4>Backend <br>
-					* Development *</h4>
-					<span>Lenguajes</span>
-					<ul>
-						<li>JavaScript</li>
-						<li>PHP</li>
-					</ul>
+					<div class="content">
+						<p>Api TheMovieDb</p>
+						<ul class="sci">
+								<li style="--i:1;"><a href="https://yonpalac1.github.io/APImovie/"><i class="fas fa-desktop"></i></a></li>
+								
+								
+							</ul>
+					</div>
+				</div>
+			</div>
 
-					<span>Databases</span>
-					<ul>
-						<li>MySql</li>
-						<li>Sql</li>
-					</ul>
+			<div class="col-sm col-md-6 col-lg-4 col-xl-4 container-proyects">
+				<div class="card-proyects">
+				<div class="imgBx">
+					<img src="images/img16.png">
 				</div>
-				<div class="box_skills p-3">
-					<h4>* Others *</h4>
-					<ul>
-						<li>Photoshop</li>
-						<li>Adobe Flash</li>
-						<li>Adobe fireworks</li>
-						<li>Git - Learning</li>
-					</ul>
-				</div>
-				<div class="box_skills p-3">
-					<h4>* Diseño y desarrollo web *</h4>
-					<p>Diseño y desarrollo web utilizando lo último en tecnologías web: DREAMWEABER, PHP, HTML5, CSS3, JAVASCRIPT y (eventualmente màs) backend. Sitios institucionales, blogs, tiendas online, corporativos, etc.</p>
-				</div>
-				<div class="box_skills p-3">
-					<h4>* Wordpress *</h4>
-					<p>Con WordPress podes modificar, agregar o eliminar el contenido que necesites sin tener conocimientos de programación. Ya no necesitás pagar por mantenimiento.</p>
-				</div>
-				<div class="box_skills p-3 bg" data-background="#FDF2E9">
-					<h4>Diseños <br>
-					 * responsivos *</h4>
-					<p>Los sitios se pueden ver y navegar de manera simple y atractiva en todos los dispositivos móviles, llegando así a tener más potenciales clientes..</p>
+					<div class="content">
+						<p>Login</p>
+						<p>Background Change CSS JS</p>
+						<ul class="sci">
+							<li style="--i:1;"><a href="https://yonpalac1.github.io/login/" target="_blank"><i class="fas fa-desktop"></i></a></li>
+							
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
+		<h2 class="text-center mb-5 mt-5" id="css">Prácticas Css</h2>
+			<div class="row">
+				<div class="col-sm col-md-6 col-lg-4 col-xl-4 container-proyects">
+					<div class="card-proyects">
+						<div class="imgBx">
+							<img src="images/img4.png">
+						</div>
+						<div class="content">
+							<ul class="sci">
+								<li style="--i:1;"><a href="https://codepen.io/yonpalac1/pen/vYXWmzE" target="_blank"><i class="fab fa-codepen"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm col-md-6 col-lg-4 col-xl-4 container-proyects">
+					<div class="card-proyects">
+						<div class="imgBx">
+							<img src="images/img5.jpg">
+						</div>
+						<div class="content">
+							<ul class="sci">
+								<li style="--i:1;"><a href="https://codepen.io/yonpalac1/pen/dypZWmB" target="_blank"><i class="fab fa-codepen"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm col-md-6 col-lg-4 col-xl-4 container-proyects">
+					<div class="card-proyects">
+						<div class="imgBx">
+							<img src="images/img6.png">
+						</div>
+						<div class="content">
+							<ul class="sci">
+								<li style="--i:1;"><a href="https://codepen.io/yonpalac1/pen/poEdPQa" target="_blank"><i class="fab fa-codepen"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</div>
+		<a  class="pl-4 pr-4 mt-5" href="proyects.html"> Mira mis proyectos </a>
 	</section>
-	<section class="container main_about p-2 change" data-background="#181818">
+
+	<section class="container-fluid text-white contact" id="contact">
+			<h2 class="text-center">Contacto</h2>
 		<div class="row">
-			<div class="col-sm-12 p-4 text-center">
-				<h3>* About me *</h3>
-			</div>
+			<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 container d-flex justify-content-center flex-column align-items-center">
+			    	<ul>
+			    		<li><i class="fas fa-map-marker-alt"></i>Dirección</li>
+			    		<p>Lanus este</p>
+			    	</ul>
+			    	<ul>
+			    		<li><i class="fas fa-phone"></i>Celular</li>
+			    		<p>11-3936-6942</p>
+			    	</ul>
+			    	<ul>
+			    		<li><i class="fas fa-envelope-open"></i>EMAIL</li>
+			    		<p>YonatanPalac@gmail.com</p>
+			    	</ul>
+			    	<ul>
+			    		<li><a href="https://www.linkedin.com/in/yonatan-palacios-5a5482203/" target="_blank"><i class="fab fa-linkedin-in"></i>Linkedin</a></li>
+			    		
+			    	</ul>
+    		</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-				<p>Soy una persona que responde a los cambios e intento estar siempre informado porque creo que la misión de los desarroladores y de los ingenieros es promover la innovación. <br>
-
-				La tecnología tiene el poder de cambiar la forma en que vemos el mundo y la vida de las personas, como dice la frase “Cualquier tecnología suficientemente avanzada es indistinguible de la magia”, y eso es lo que creo que hay que hacer sentir a las personas.<br>
-
-				Entiendo al servicio o producto como una herramienta para resolver un problema, y al diseño como un intermediario para que los usuarios lo dominen.</p>
-
-				<button type="submit" onclick="window.open('js/CV-Jonatan Palacios (desarrollador web).pdf')">Descargar CV en PDF</button>
-			</div>
-			<div class="col d-flex justify-content-center">
-				<img src="./img/foto.png" class="img-fluid">
-			</div>
-		</div>
-	</section>
-	<section class="container">
-		<div class="row">
-			<div class="col-sm-12 text-center">
-				<h3>Info</h3>
-			</div>
-			<div class="main_info_static p-2">
-				<h4><a href="https://www.linkedin.com/in/yonatan-palacios-5a5482203">Linkedin</a></h4>
-				<h4><a href="https://codepen.io/yonpalac1">Codepen</a></h4>
-				<h4>YonatanPalac@gmail.com</h4>
-				<p>Whatsapp</p>
-				<h4>11-3936-6942</h4>
-			</div>
-			<div class="main_info p-2">
-				<p>Lanus</p>
-				<h4>Buenos Aires</h4>
-				<p>Nacimiento 30/01/1994</p>
-				<h4>Diseñador creativo</h4>
-			</div>
-			<div class="main_info p-2">
-				<h4>speak Me!</h4>
-				<h4>Take the button to say hello!</h4>
-				<button onclick="openMenu()">Speak ME!</button>
+			      <form action="js/enviar.php" method="post">
+			        <div>
+			          <input type="text" name="name" placeholder="Nombre" required="">
+			        </div>
+			        <div>
+			          <input type="mail" name="mail" placeholder="Email" required="">
+			        </div>
+			        <div>
+			          <input type="text" name="asunto" placeholder="Asunto" required="">
+			        </div>
+			        <div>
+			          <textarea id="msg" name="msg" placeholder="Mensaje" required=""></textarea>
+			        </div>
+			        <div class="button">
+			          <input type="submit" class="enviar" name="send">
+			        </div>
+			      </form> 
+			      
 			</div>
 		</div>
 	</section>
+
+  	<footer class="text-center">
+		<a href="index.html" class="text-white">© 2020 by Jonatan Palacios</a>
+	</footer>
 
 <script src="js/e.js"></script>
-<script src="./js/script.js"></script>
+<script src="js/app.js"></script>
 <script src="js/wow.js"></script><!--scroll apear-->
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script><!--scroll-->
+<script src="js/vanilla-tilt.js"></script><!--imgmov-->
 
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".imgPc"), {
+		max: 8,
+		speed: 5000
+	});
+	
+</script>
 <script>
 	window.sr = ScrollReveal();
 
-	sr.reveal('h1, h3, li, span', {
+	sr.reveal('h2', {
 		duration: 1000,
 		origin: 'left',
 		distance: '100%',
 		opacity: 0
 	});
-	sr.reveal('.slide, p, img, h4, button',  {
+	sr.reveal('.slide, p',  {
 		duration: 1500,
 		origin: 'bottom',
 		distance: '100%',
 		opacity: 0
 	});
 </script>
+	<div id="last"></div>
 </body>
 </html>
